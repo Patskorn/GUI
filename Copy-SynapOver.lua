@@ -45,9 +45,9 @@ end
 local UserInputService = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
 
-local Eiei = {}
+local library = {}
 
-function Eiei:new(txt,desc)
+function library:new(txt,desc)
 local UICopied = Instance.new("ScreenGui")
 local Background = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
