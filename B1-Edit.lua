@@ -1455,4 +1455,3 @@ function library:CreateWindow(title,theme,closebind)
 end
 return tabs
 end
-return library
